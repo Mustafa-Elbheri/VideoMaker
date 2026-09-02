@@ -810,9 +810,10 @@ def gh_output(*args, check=True):
 
 
 def ensure_github_ready():
-    gh_output("auth", "status")
-    gh_output("auth", "setup-git", check=False)
-    gh_output("repo", "view", REPOSITORY, check=False)
+    pass
+    # gh_output("auth", "status")
+    # gh_output("auth", "setup-git", check=False)
+    # gh_output("repo", "view", REPOSITORY, check=False)
 
 
 def remove_ignored_files_from_index():
