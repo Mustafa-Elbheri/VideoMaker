@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "license": {
+    "provider": "Mixkit",
+    "license_name": "Mixkit Free License",
+    "license_url": "https://mixkit.co/license/",
+    "note_ar": "تم تحميل هذه الحزمة من Mixkit من عناصر مجانية. راجع صفحة الترخيص قبل إعادة توزيع البرنامج تجاريا."
+  },
+  "effects": [
+    {
+      "id": "mixkit_cinematic_whoosh_fast_transition",
+      "name_ar": "انتقال هوائي سينمائي سريع",
+      "category_ar": "انتقالات صوتية",
+      "type": "audio",
+      "duration": 1.38,
+      "file": "audio/mixkit_cinematic_whoosh_fast_transition.mp3",
+      "source_page": "https://mixkit.co/free-sound-effects/whoosh/",
+      "description_ar": "صوت هواء سريع جدا مناسب للانتقال الخفيف بين لقطتين."
+    },
+    {
+      "id": "mixkit_fast_rocket_whoosh",
+      "name_ar": "مرور صاروخي سريع",
+      "category_ar": "انتقالات صوتية",
+      "type": "audio",
+      "duration": 4.78,
+      "file": "audio/mixkit_fast_rocket_whoosh.mp3",
+      "source_page": "https://mixkit.co/free-sound-effects/whoosh/",
+      "description_ar": "صوت مرور قوي وسريع مناسب للمشاهد الحماسية."
+    },
+    {
+      "id": "mixkit_arrow_whoosh",
+      "name_ar": "سهم هوائي قصير",
+      "category_ar": "انتقالات صوتية",
+      "type": "audio",
+      "duration": 1.15,
+      "file": "audio/mixkit_arrow_whoosh.mp3",
+      "source_page": "https://mixkit.co/free-sound-effects/whoosh/",
+      "description_ar": "صوت قصير جدا كمرور سهم أو حركة سريعة."
+    },
+    {
+      "id": "mixkit_magic_sparkle_whoosh",
+      "name_ar": "لمعة سحرية مع هواء",
+      "category_ar": "انتقالات صوتية",
+      "type": "audio",
+      "duration": 3.53,
+      "file": "audio/mixkit_magic_sparkle_whoosh.mp3",
+      "source_page": "https://mixkit.co/free-sound-effects/whoosh/",
+      "description_ar": "صوت لمعان وحركة مناسب للظهور أو الانتقال الناعم."
+    },
+    {
+      "id": "mixkit_epic_movie_trailer_whoosh_impact",
+      "name_ar": "انتقال إعلاني ضخم",
+      "category_ar": "سينمائي",
+      "type": "audio",
+      "duration": 9.61,
+      "file": "audio/mixkit_epic_movie_trailer_whoosh_impact.mp3",
+      "source_page": "https://mixkit.co/free-sound-effects/whoosh/",
+      "description_ar": "صوت طويل يبدأ بحركة ثم ضربة، مناسب للمقدمات والإعلانات."
+    },
+    {
+      "id": "mixkit_electric_whoosh",
+      "name_ar": "انتقال كهربائي",
+      "category_ar": "تقني",
+      "type": "audio",
+      "duration": 3.16,
+      "file": "audio/mixkit_electric_whoosh.mp3",
+      "source_page": "https://mixkit.co/free-sound-effects/whoosh/",
+      "description_ar": "صوت كهربائي سريع مناسب للقطات التقنية أو الجليتش."
+    },
+    {
+      "id": "mixkit_cinematic_whoosh_deep_impact",
+      "name_ar": "ضربة سينمائية عميقة",
+      "category_ar": "سينمائي",
+      "type": "audio",
+      "duration": 4.1,
+      "file": "audio/mixkit_cinematic_whoosh_deep_impact.mp3",
+      "source_page": "https://mixkit.co/free-sound-effects/impact/",
+      "description_ar": "ضربة عميقة مناسبة لإظهار عنوان أو بداية مشهد قوي."
+    },
+    {
+      "id": "mixkit_movie_trailer_epic_impact",
+      "name_ar": "ضربة تريلر ملحمية",
+      "category_ar": "سينمائي",
+      "type": "audio",
+      "duration": 4.91,
+      "file": "audio/mixkit_movie_trailer_epic_impact.mp3",
+      "source_page": "https://mixkit.co/free-sound-effects/impact/",
+      "description_ar": "ضربة ترويجية قوية مناسبة للفواصل والمقدمات."
+    },
+    {
+      "id": "mixkit_big_cinematic_impact",
+      "name_ar": "ضربة سينمائية كبيرة",
+      "category_ar": "سينمائي",
+      "type": "audio",
+      "duration": 7.97,
+      "file": "audio/mixkit_big_cinematic_impact.mp3",
+      "source_page": "https://mixkit.co/free-sound-effects/impact/",
+      "description_ar": "تأثير طويل وقوي يعطي إحساسا دراميا قبل لقطة مهمة."
+    },
+    {
+      "id": "mixkit_movie_impact_intro_presentation",
+      "name_ar": "ضربة مقدمة فيلمية",
+      "category_ar": "مقدمات",
+      "type": "audio",
+      "duration": 6.03,
+      "file": "audio/mixkit_movie_impact_intro_presentation.mp3",
+      "source_page": "https://mixkit.co/free-sound-effects/impact/",
+      "description_ar": "تأثير مناسب لبداية فقرة أو ظهور عنوان رئيسي."
+    },
+    {
+      "id": "mixkit_dramatic_metal_explosion_impact",
+      "name_ar": "انفجار معدني درامي",
+      "category_ar": "درامي",
+      "type": "audio",
+      "duration": 4.05,
+      "file": "audio/mixkit_dramatic_metal_explosion_impact.mp3",
+      "source_page": "https://mixkit.co/free-sound-effects/impact/",
+      "description_ar": "ضربة معدنية وانفجارية قوية للمشاهد الحادة."
+    },
+    {
+      "id": "mixkit_reverse_cinematic_impact_trailer",
+      "name_ar": "تصاعد عكسي سينمائي",
+      "category_ar": "تصاعد",
+      "type": "audio",
+      "duration": 10.11,
+      "file": "audio/mixkit_reverse_cinematic_impact_trailer.mp3",
+      "source_page": "https://mixkit.co/free-sound-effects/impact/",
+      "description_ar": "تصاعد طويل ينتهي بإحساس تريلر، مناسب قبل انتقال مهم."
+    },
+    {
+      "id": "mixkit_black_and_white_ink_underwater",
+      "name_ar": "حبر أسود وأبيض تحت الماء",
+      "category_ar": "انتقالات مرئية",
+      "type": "video",
+      "duration": 14.13,
+      "file": "video/mixkit_black_and_white_ink_underwater.mp4",
+      "source_page": "https://mixkit.co/free-stock-video/transition/",
+      "description_ar": "حركة حبر تجريدية بالأبيض والأسود تصلح كخلفية أو انتقال."
+    },
+    {
+      "id": "mixkit_fire_blast_on_black_background",
+      "name_ar": "انفجار نار على خلفية سوداء",
+      "category_ar": "مؤثرات مرئية",
+      "type": "video",
+      "duration": 11.8,
+      "file": "video/mixkit_fire_blast_on_black_background.mp4",
+      "source_page": "https://mixkit.co/free-stock-video/transition/",
+      "description_ar": "كرة نار على خلفية سوداء تصلح كمؤثر درامي أو فاصل."
+    },
+    {
+      "id": "mixkit_white_and_black_ink_underwater",
+      "name_ar": "حبر أبيض وأسود معكوس",
+      "category_ar": "انتقالات مرئية",
+      "type": "video",
+      "duration": 15.81,
+      "file": "video/mixkit_white_and_black_ink_underwater.mp4",
+      "source_page": "https://mixkit.co/free-stock-video/transition/",
+      "description_ar": "حركة حبر معكوسة تصلح لانتقال ناعم أو خلفية تجريدية."
+    },
+    {
+      "id": "mixkit_monochromatic_visual_compositions",
+      "name_ar": "تكوينات بصرية أحادية اللون",
+      "category_ar": "انتقالات مرئية",
+      "type": "video",
+      "duration": 10.34,
+      "file": "video/mixkit_monochromatic_visual_compositions.mp4",
+      "source_page": "https://mixkit.co/free-stock-video/transition/",
+      "description_ar": "تتابع بصري سريع بالأبيض والأسود مناسب للفواصل الحديثة."
+    },
+    {
+      "id": "mixkit_abstract_kaleidoscope_transition",
+      "name_ar": "انتقال كاليدوسكوب تجريدي",
+      "category_ar": "انتقالات مرئية",
+      "type": "video",
+      "duration": 6.08,
+      "file": "video/mixkit_abstract_kaleidoscope_transition.mp4",
+      "source_page": "https://mixkit.co/free-stock-video/transition/",
+      "description_ar": "أشكال متناظرة سريعة تصلح لانتقال حركي."
+    },
+    {
+      "id": "mixkit_sequence_abstract_movements",
+      "name_ar": "تتابع حركات تجريدية",
+      "category_ar": "انتقالات مرئية",
+      "type": "video",
+      "duration": 11.01,
+      "file": "video/mixkit_sequence_abstract_movements.mp4",
+      "source_page": "https://mixkit.co/free-stock-video/transition/",
+      "description_ar": "حركات تجريدية متتابعة مناسبة كخلفية أو فاصل بصري."
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <title id="page-title">اختصارات لوحة المفاتيح</title>
+  <style>
+    body {
+      font-family: Tahoma, Arial, sans-serif;
+      line-height: 1.8;
+      margin: 32px;
+      color: #111;
+      background: #fff;
+    }
+    h1, h2 {
+      margin: 0 0 12px;
+    }
+    section {
+      margin: 0 0 24px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 980px;
+    }
+    th, td {
+      border: 1px solid #777;
+      padding: 8px 10px;
+      vertical-align: top;
+    }
+    th {
+      background: #eee;
+    }
+    kbd {
+      font-family: Consolas, monospace;
+      font-size: 1em;
+      border: 1px solid #555;
+      border-radius: 4px;
+      padding: 1px 6px;
+      background: #f7f7f7;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+  <main id="content"></main>
+  <script>
+    const shortcutPages = {
+      ar: {
+        dir: "rtl",
+        lang: "ar",
+        title: "اختصارات لوحة المفاتيح",
+        shortcut: "الاختصار",
+        action: "الوظيفة",
+        sections: [
+          ["ملف وحفظ", [
+            ["Ctrl+N", "فتح نافذة جديدة مستقلة."],
+            ["Ctrl+O", "فتح ملف فيديو أو صوت أو صورة."],
+            ["Ctrl+S", "حفظ الملف أو المشروع الحالي."],
+            ["Ctrl+Shift+S", "حفظ الجزء المحدد فقط."],
+            ["Ctrl+W", "تنظيف مساحة العمل من كل الملفات المفتوحة."],
+            ["Ctrl+J", "حفظ جلسة العمل الحالية."],
+            ["Ctrl+Shift+J", "استعادة جلسة عمل محفوظة."],
+            ["Ctrl+Alt+J", "استعادة جلسة الإغلاق المفاجئ."],
+            ["Ctrl+Shift+M", "فتح معلومات الملف."],
+            ["Ctrl+Q", "الخروج من البرنامج."]
+          ]],
+          ["التشغيل والتنقل", [
+            ["Space", "تشغيل من موضع المؤشر، وعند الضغط مرة أخرى يعود المؤشر إلى الموضع الذي بدأ منه التشغيل."],
+            ["X", "تشغيل أو إيقاف مؤقت في الموضع الحالي."],
+            ["Shift+Space", "تشغيل الجزء المحدد فقط."],
+            ["Ctrl+Space", "تشغيل كامل الخط الزمني فيما عدا الجزء المحدد."],
+            ["سهم يمين", "تقديم حسب خطوة التنقل المختارة."],
+            ["سهم يسار", "ترجيع حسب خطوة التنقل المختارة."],
+            ["Home أو Ctrl+Home", "الانتقال إلى بداية التحديد إذا كان هناك تحديد، وإلا إلى بداية الملف."],
+            ["End أو Ctrl+End", "الانتقال إلى نهاية التحديد إذا كان هناك تحديد، وإلا إلى نهاية الملف."],
+            ["Page Up", "رجوع 20 ثانية."],
+            ["Page Down", "تقدم 20 ثانية."],
+            ["Shift+Page Up", "رجوع ثانية واحدة."],
+            ["Shift+Page Down", "تقدم ثانية واحدة."],
+            ["Ctrl+Page Up", "الانتقال إلى حافة العنصر السابقة."],
+            ["Ctrl+Page Down", "الانتقال إلى حافة العنصر التالية."],
+            ["Tab", "الانتقال إلى الملف التالي داخل الخط الزمني ونطق رقمه."],
+            ["Shift+Tab", "الانتقال إلى الملف السابق داخل الخط الزمني ونطق رقمه."],
+            ["Ctrl+Tab", "الانتقال إلى النافذة التالية."],
+            ["Ctrl+Shift+Tab", "الانتقال إلى النافذة السابقة."],
+            ["سهم لأعلى", "في الوضع الاحترافي: الانتقال إلى التراك السابق ونطق اسمه ومحتواه. في الوضع العادي: رفع مستوى الصوت حتى 100 بالمئة."],
+            ["Shift+سهم لأعلى", "رفع مستوى الصوت تدريجيا حتى 400 بالمئة."],
+            ["سهم لأسفل", "في الوضع الاحترافي: الانتقال إلى التراك التالي ونطق اسمه ومحتواه. في الوضع العادي: خفض مستوى الصوت."],
+            ["Ctrl+Alt+سهم لأعلى", "في الوضع الاحترافي: رفع مستوى تراك الماستر بدرجة ديسيبل واحدة وكل الأصوات تخرج منه."],
+            ["Ctrl+Alt+سهم لأسفل", "في الوضع الاحترافي: خفض مستوى تراك الماستر بدرجة ديسيبل واحدة."],
+            ["Shift+سهم يمين", "الوقوف عند حافة آخر عنصر تمت إضافته."],
+            ["Ctrl+سهم يمين", "في الوضع الاحترافي: الانتقال إلى العنصر التالي على التراك الحالي. في الوضع العادي: الانتقال إلى نقطة التعديل التالية ونطق نوع ما تمت إضافته أو قصه أو حذفه."],
+            ["Ctrl+سهم يسار", "في الوضع الاحترافي: الانتقال إلى العنصر السابق على التراك الحالي. في الوضع العادي: الانتقال إلى نقطة التعديل السابقة ونطق نوع ما تمت إضافته أو قصه أو حذفه."],
+            ["Ctrl+Shift+Backspace", "نطق نقطة التعديل الحالية بدون حذفها."],
+            ["Backspace", "حذف نقطة التعديل الحالية وتحديد بدايتها ونهايتها لإضافة عنصر آخر في نفس الموضع."],
+            ["Ctrl+T", "نطق الوقت الحالي والمدة الكاملة."],
+            ["Ctrl+L", "نطق مدة التحديد الحالي."],
+            ["Ctrl+Shift+L", "نطق العناصر الموجودة عند الموضع الحالي."],
+            ["Ctrl+Shift+N", "نطق عدد مواضع التعديل."]
+          ]],
+          ["التحديد والتحرير", [
+            ["ج أو Ctrl+H", "تحديد بداية المقطع. إذا لم تكن هناك نهاية محددة يكون التحديد من الموضع الحالي إلى نهاية الملف."],
+            ["د أو K أو Ctrl+K", "تحديد نهاية المقطع. إذا لم تكن هناك بداية محددة يكون التحديد من بداية الملف إلى الموضع الحالي، وإذا كانت البداية موجودة يتوقف المشغل ويثبت التحديد."],
+            ["Ctrl+A", "في الوضع الاحترافي: تحديد الخط الزمني كامل بكل عناصره. في الوضع العادي: تحديد كامل الخط الزمني."],
+            ["Ctrl+Shift+Home", "تحديد من بداية الملف إلى الموضع الحالي."],
+            ["Ctrl+Shift+End", "تحديد من الموضع الحالي إلى نهاية الملف."],
+            ["Ctrl+X", "في الوضع الاحترافي: قص العناصر المحددة من التراكات إلى الحافظة. في الوضع العادي: قص المقطع المحدد ووضعه في الحافظة للصقه عند الموضع الحالي."],
+            ["Ctrl+Z", "التراجع عن آخر تعديل."],
+            ["Ctrl+Y", "استعادة آخر تعديل تم التراجع عنه."],
+            ["Delete", "في الوضع الاحترافي: حذف العنصر المركّز أو المحدد من التراك مع تطبيق وضع Ripple. في الوضع العادي: حذف المقطع المحدد من الفيديو أو الصوت."],
+            ["Ctrl+F4", "حذف الملف الحالي من الخط الزمني."],
+            ["Ctrl+C", "في الوضع الاحترافي: نسخ العناصر المحددة من التراكات. في الوضع العادي: نسخ المقطع المحدد."],
+            ["Ctrl+V", "في الوضع الاحترافي: لصق العناصر في التراك الحالي عند المؤشر مع تحريك العناصر حسب وضع Ripple. في الوضع العادي: لصق المقطع عند الموضع الحالي."],
+            ["Ctrl+R", "تكرار الجزء المحدد بعدد يكتبه المستخدم."],
+            ["F2", "تسمية النافذة الحالية."],
+            ["Ctrl+Shift+R", "إزالة الصمت من الجزء المحدد."],
+            ["Ctrl+Shift+F", "تطبيق تسريع أو إبطاء على التحديد الحالي."],
+            ["Ctrl+Shift+O", "تدوير الفيديو أو قلبه في التحديد الحالي."],
+            ["Ctrl+Shift+K", "كتم الصوت الأصلي للفيديو أو الصوت في التحديد الحالي."],
+            ["Ctrl+Shift+G", "كتم كلمة أو جزء بصوت تغطية من التحديد الحالي."]
+          ]],
+          ["الإدراج", [
+            ["Ctrl+M", "في الوضع الاحترافي: كتم التراك الحالي أو رفع الكتم عنه. في الوضع العادي: إضافة فيديو عند الموضع الحالي في مشروع الفيديو، أو إدراج فيديو مرئي فوق الصوت في مشروع الصوت."],
+            ["Ctrl+B", "إدراج صوت عند الموضع الحالي في الخط الزمني."],
+            ["Ctrl+D", "إدراج صمت عند الموضع الحالي في الخط الزمني."],
+            ["Ctrl+Shift+I", "إدراج صورة بين نقطة البداية ونقطة النهاية."],
+            ["Ctrl+Shift+T", "إدراج نص فوق الفيديو أو فوق مشروع الصوت مع الصور."],
+            ["Ctrl+Shift+B", "إدراج خلفية صوتية في الجزء المحدد."],
+            ["I", "في الوضع الاحترافي: إدراج عنصر في التراك الحالي حسب نوع التراك، فيديو في التراك 1 أو 2، صوت في التراك 3 أو 4، نص في التراك 5."],
+            ["مفتاح التطبيقات", "فتح الخيارات السريعة حسب نوع الملف المفتوح."]
+          ]],
+          ["الخلفيات الصوتية", [
+            ["Ctrl+Shift+سهم يمين", "في الوضع الاحترافي: توسيع التحديد التراكمي إلى العنصر التالي على التراك الحالي. في الوضع العادي: الانتقال إلى الخلفية الصوتية التالية."],
+            ["Ctrl+Shift+سهم يسار", "في الوضع الاحترافي: توسيع التحديد التراكمي إلى العنصر السابق على التراك الحالي. في الوضع العادي: الانتقال إلى الخلفية الصوتية السابقة."],
+            ["Ctrl+Shift+سهم لأعلى", "رفع صوت الخلفية الصوتية الحالية."],
+            ["Ctrl+Shift+سهم لأسفل", "خفض صوت الخلفية الصوتية الحالية."],
+            ["B", "كتم صوت الخلفية الصوتية في الجزء المحدد في الوضع العادي والوضع الاحترافي."],
+            ["Ctrl+Shift+D", "حذف الخلفية الصوتية الحالية وتحديد مكانها."]
+          ]],
+          ["الزوم ومقدار التنقل", [
+            ["الوضع الاحترافي: + من لوحة الأرقام", "تكبير خطوة التنقل الزمنية (الحركة بالأقواس تصبح أكبر) مع خفض مستوى الزوم."],
+            ["الوضع الاحترافي: - من لوحة الأرقام", "تصغير خطوة التنقل الزمنية (حركة أدق على الحواف الحادة) مع رفع مستوى الزوم."],
+            ["3 أو Numpad 3 (الوضع الاحترافي)", "إعادة ضبط مستوى الزوم إلى الافتراضي (80 بكسل لكل ثانية) و خطوة التنقل نحو 12 ملي ثانية."],
+            ["Numpad 2 (الوضع الاحترافي)", "نقل العنصر المركّز إلى التراك التالي (مهمة ثابتة لا تمس الزوم)."],
+            ["1 أو Ctrl+1 / 2 أو Ctrl+2 (الوضع العادي)", "في الوضع العادي فقط: خفض/رفع خطوة التنقل الزمنية."]
+          ]],
+          ["المؤثرات والمعاينة", [
+            ["Ctrl+Shift+E", "فتح اختيار المؤثرات الصوتية."],
+            ["Ctrl+Shift+V", "فتح المؤثرات المرئية في مشروع الفيديو."],
+            ["Ctrl+Shift+P", "فتح المؤثرات الانتقالية وتطبيقها على التحديد أو على العنصر المناسب."],
+            ["Space", "تشغيل أو إيقاف المعاينة داخل نوافذ المعاينة."],
+            ["F4", "تشغيل المعاينة داخل نوافذ المعاينة."],
+            ["F5", "ترجيع المعاينة عند توفر ذلك."],
+            ["F6", "تقديم المعاينة عند توفر ذلك."],
+            ["F7", "إيقاف مؤقت للمعاينة داخل نوافذ المعاينة."],
+            ["F8", "إيقاف المعاينة داخل نوافذ المعاينة."],
+            ["Alt+سهم يمين", "تسريع خطوة واحدة داخل نافذة التسريع والإبطاء مع نطق النسبة."],
+            ["Alt+سهم يسار", "تبطيئ خطوة واحدة داخل نافذة التسريع والإبطاء مع نطق النسبة."],
+            ["Alt+0 أو Alt+Numpad 0", "إعادة السرعة للوضع الافتراضي 1x داخل نافذة التسريع والإبطاء."],
+            ["Escape", "إغلاق نافذة المؤثر أو المحاورة الحالية عند توفر ذلك."]
+          ]],
+          ["أدوات", [
+            ["Ctrl+F9", "فتح إعدادات تسجيل الصوت وبدء التسجيل."],
+            ["Ctrl+Shift+F9", "تجهيز تسجيل الشروحات المصورة وإخفاء نافذة البرنامج."],
+            ["Ctrl+Alt+F9", "بدء تسجيل الشاشة المجهز من أي مكان."],
+            ["Ctrl+F7 أو Ctrl+Alt+F7", "إيقاف التسجيل مؤقتا أو استئنافه."],
+            ["Ctrl+F8 أو Ctrl+Alt+F8", "إيقاف التسجيل وفتح الملف الناتج في المشغل."],
+            ["/", "بدء استخراج وتحرير النطق في الجزء المحدد ضمن ميزة كتابة النطق على الشاشة."],
+            ["Space", "داخل نافذة مراجعة النطق: تشغيل معاينة القطعة الحالية."],
+            ["Page Up", "داخل نافذة مراجعة النطق: الانتقال إلى القطعة السابقة."],
+            ["Page Down", "داخل نافذة مراجعة النطق: الانتقال إلى القطعة التالية أو تطبيق التعديلات عند آخر قطعة."]
+          ]],
+            ["الإعدادات", [
+              ["Shift+نقطة", "التبديل بين الوضع العادي والوضع الاحترافي."],
+              ["سهم لأعلى/لأسفل", "في الوضع الاحترافي: التنقل بين التراكات الخمسة ونطق اسم كل تراك ومحتواه. التراكات: 1 المقطع الرئيسي، 2 المقطع الثانوي، 3 المؤثرات الصوتية، 4 الخلفية الصوتية، 5 النصوص. التراكان 1 و2 يقبلان الفيديو فقط، والتراكان 3 و4 يقبلان الصوت فقط، والتراك 5 يقبل النصوص فقط، ويتحقق البرنامج من نوع المحتوى عند الإدراج."]
+            ]],
+          ["المحرر الاحترافي (DAW)", [
+            ["I", "إدراج عنصر عند المؤشر بالطول الطبيعي حسب نوع التراك الحالي: فيديو في التراك 1 أو 2، صوت في التراك 3 أو 4، نص في التراك 5."],
+            ["S", "قص العنصر عند المؤشر على التراك الحالي إلى جزأين مع ضبط العناصر بعده حسب وضع Ripple."],
+            ["Delete", "حذف العنصر المركّز أو المحدد من التراك مع تطبيق وضع Ripple."],
+            ["Ctrl+سهم يمين", "الانتقال إلى العنصر التالي على التراك الحالي."],
+            ["Ctrl+سهم يسار", "الانتقال إلى العنصر السابق على التراك الحالي."],
+            ["Ctrl+Shift+سهم يمين", "توسيع التحديد التراكمي إلى العنصر التالي على التراك الحالي."],
+            ["Ctrl+Shift+سهم يسار", "توسيع التحديد التراكمي إلى العنصر السابق على التراك الحالي."],
+            ["Ctrl+A", "تحديد الخط الزمني كامل بكل عناصره على كل التراكات."],
+            ["Ctrl+X", "قص العناصر المحددة من التراكات إلى الحافظة."],
+            ["Ctrl+C", "نسخ العناصر المحددة من التراكات."],
+            ["Ctrl+V", "لصق العناصر في التراك الحالي عند المؤشر مع تحريك العناصر حسب وضع Ripple."],
+            ["Ctrl+M", "كتم التراك الحالي أو رفع الكتم عنه."],
+            ["Alt+P", "تبديل وضع Ripple بين الأوضاع الثلاثة: لكل تراك، كل التراكات، مطفأ."],
+            ["Ctrl+E", "تعديل العنصر النصي المركّز."],
+            ["Numpad 4", "إزاحة العنصر المركّز إلى اليسار بمقدار خطوة التنقل."],
+            ["Numpad 6", "إزاحة العنصر المركّز إلى اليمين بمقدار خطوة التنقل."],
+            ["Numpad 8", "نقل العنصر المركّز إلى التراك السابق."],
+            ["Numpad 2", "نقل العنصر المركّز إلى التراك التالي."],
+            ["أوضاع Ripple الثلاثة", "لكل تراك: عند القص أو الحذف أو الإدراج يتحرك فقط ما بعد العملية على التراك نفسه. كل التراكات: تتحرك العناصر بعد العملية على كل التراكات معا. مطفأ: تبقى كل العناصر في أماكنها وتُترك فجوات."],
+            ["التراكات الخمسة", "1 المقطع الرئيسي يقبل الفيديو فقط، 2 المقطع الثانوي يقبل الفيديو والصور، 3 المؤثرات الصوتية يقبل الصوت، 4 الخلفية الصوتية يقبل الصوت، 5 النصوص يقبل النصوص الديناميكية القابلة للتعديل."]
+          ]],
+          ["المساعدة", [
+            ["Ctrl+U", "التحقق من وجود تحديثات للبرنامج."],
+            ["Ctrl+Shift+F2", "تغيير اسم التطبيق وإنشاء أو تحديث اختصار سطح المكتب بالاسم الجديد."]
+          ]]
+        ]
+      },
+      en: {
+        dir: "ltr",
+        lang: "en",
+        title: "Keyboard shortcuts",
+        shortcut: "Shortcut",
+        action: "Action",
+        sections: [
+          ["File and saving", [
+            ["Ctrl+N", "Open a new independent window."],
+            ["Ctrl+O", "Open a video, audio, or image file."],
+            ["Ctrl+S", "Save the current file or project."],
+            ["Ctrl+Shift+S", "Save only the selected part."],
+            ["Ctrl+W", "Clear the workspace of all opened files."],
+            ["Ctrl+J", "Save the current work session."],
+            ["Ctrl+Shift+J", "Restore a saved work session."],
+            ["Ctrl+Alt+J", "Restore the unexpected close session."],
+            ["Ctrl+Shift+M", "Open file information."],
+            ["Ctrl+Q", "Exit the program."]
+          ]],
+          ["Playback and navigation", [
+            ["Space", "Play from the cursor position. Press again to return the cursor to the position where playback started."],
+            ["X", "Play or pause at the current position."],
+            ["Shift+Space", "Play the selected part only."],
+            ["Ctrl+Space", "Play the whole timeline except the selected part."],
+            ["Right", "Move forward by the selected navigation step."],
+            ["Left", "Move backward by the selected navigation step."],
+            ["Home or Ctrl+Home", "Go to the start of the selection when one exists, otherwise to the start of the file."],
+            ["End or Ctrl+End", "Go to the end of the selection when one exists, otherwise to the end of the file."],
+            ["Page Up", "Go back 20 seconds."],
+            ["Page Down", "Go forward 20 seconds."],
+            ["Shift+Page Up", "Go back one second."],
+            ["Shift+Page Down", "Go forward one second."],
+            ["Ctrl+Page Up", "Move to the previous item edge."],
+            ["Ctrl+Page Down", "Move to the next item edge."],
+            ["Tab", "Move to the next file in the timeline and announce its number."],
+            ["Shift+Tab", "Move to the previous file in the timeline and announce its number."],
+            ["Ctrl+Tab", "Move to the next window."],
+            ["Ctrl+Shift+Tab", "Move to the previous window."],
+            ["Up", "In professional mode: move to the previous track and announce its name and content. In normal mode: increase volume up to 100 percent."],
+            ["Shift+Up", "Boost volume gradually up to 400 percent."],
+            ["Down", "In professional mode: move to the next track and announce its name and content. In normal mode: decrease volume."],
+            ["Ctrl+Alt+Up", "In professional mode: raise the master track level by one decibel and all sounds pass through it."],
+            ["Ctrl+Alt+Down", "In professional mode: lower the master track level by one decibel."],
+            ["Shift+Right", "Stop at the edge of the last added item."],
+            ["Ctrl+Right", "In professional mode: move to the next element on the current track. In normal mode: move to the next edit point and announce what was added cut or deleted."],
+            ["Ctrl+Left", "In professional mode: move to the previous element on the current track. In normal mode: move to the previous edit point and announce what was added cut or deleted."],
+            ["Ctrl+Shift+Backspace", "Speak the current edit point without deleting it."],
+            ["Backspace", "Delete the current edit point and select its start and end so another item can be added there."],
+            ["Ctrl+T", "Speak current time and total duration."],
+            ["Ctrl+L", "Speak the current selection length."],
+            ["Ctrl+Shift+L", "Speak items at the current position."],
+            ["Ctrl+Shift+N", "Speak the number of edit points."]
+          ]],
+          ["Selection and editing", [
+            ["[ or Ctrl+H", "Set selection start. When no end is set, the selection runs from the current position to the end of the file."],
+            ["] or K or Ctrl+K", "Set selection end. When no start is set, the selection runs from the start of the file to the current position. When a start exists, playback stops and the selection is fixed."],
+            ["Ctrl+A", "In professional mode: select the full timeline with all its elements. In normal mode: select the full timeline."],
+            ["Ctrl+Shift+Home", "Select from the start of the file to the current position."],
+            ["Ctrl+Shift+End", "Select from the current position to the end of the file."],
+            ["Ctrl+X", "In professional mode: cut the selected elements from the tracks into the clipboard. In normal mode: cut the selected segment and place it in the clipboard for pasting at the current position."],
+            ["Ctrl+Z", "Undo the last edit."],
+            ["Ctrl+Y", "Restore the last undone edit."],
+            ["Delete", "In professional mode: delete the focused or selected element from the track applying the ripple mode. In normal mode: delete the selected segment from video or audio."],
+            ["Ctrl+F4", "Delete the current file from the timeline."],
+            ["Ctrl+C", "In professional mode: copy the selected elements from the tracks. In normal mode: copy the selected segment."],
+            ["Ctrl+V", "In professional mode: paste the elements into the current track at the cursor moving items according to the ripple mode. In normal mode: paste the segment at the current position."],
+            ["Ctrl+R", "Repeat the selected part by a number entered by the user."],
+            ["F2", "Name the current window."],
+            ["Ctrl+Shift+R", "Remove silence from the selected part."],
+            ["Ctrl+Shift+F", "Apply speed up or slow down to the current selection."],
+            ["Ctrl+Shift+O", "Rotate or flip the video in the current selection."],
+            ["Ctrl+Shift+K", "Mute the original audio in the current selection."],
+            ["Ctrl+Shift+G", "Bleep a word or part using a cover sound in the current selection."]
+          ]],
+          ["Insert", [
+            ["Ctrl+M", "In professional mode: mute the current track or unmute it. In normal mode: add video at the current position in a video project, or insert a visual video over audio in an audio project."],
+            ["Ctrl+B", "Insert audio at the current position in the timeline."],
+            ["Ctrl+D", "Insert silence at the current position in the timeline."],
+            ["Ctrl+Shift+I", "Insert an image between the start point and end point."],
+            ["Ctrl+Shift+T", "Insert text over the video or over an audio project with images."],
+            ["Ctrl+Shift+B", "Insert background audio in the selected part."],
+            ["I", "In professional mode: insert an item in the current track according to its type, video in track 1 or 2, audio in track 3 or 4, text in track 5."],
+            ["Applications key", "Open quick options depending on the currently opened file type."]
+          ]],
+          ["Background audio", [
+            ["Ctrl+Shift+Right", "In professional mode: extend the cumulative selection to the next element on the current track. In normal mode: move to the next background audio."],
+            ["Ctrl+Shift+Left", "In professional mode: extend the cumulative selection to the previous element on the current track. In normal mode: move to the previous background audio."],
+            ["Ctrl+Shift+Up", "Increase the current background audio volume."],
+            ["Ctrl+Shift+Down", "Decrease the current background audio volume."],
+            ["B", "Mute background audio in the selected part in normal and professional mode."],
+            ["Ctrl+Shift+D", "Delete the current background audio and select its place."]
+          ]],
+          ["Navigation step", [
+            ["1 or Numpad 1 or Ctrl+1", "Decrease navigation step."],
+            ["2 or Numpad 2 or Ctrl+2", "Increase navigation step. Exception: in professional mode, Numpad 2 moves the focused element to the next track instead."],
+            ["3 or Numpad 3 or Ctrl+3", "Reset navigation step to the default value."]
+          ]],
+          ["Effects and preview", [
+            ["Ctrl+Shift+E", "Open audio effect selection."],
+            ["Ctrl+Shift+V", "Open visual effects in a video project."],
+            ["Ctrl+Shift+P", "Open transition effects and apply them to the selection or the matching element."],
+            ["Space", "Play or stop preview inside preview windows."],
+            ["F4", "Play preview inside preview windows."],
+            ["F5", "Rewind preview when available."],
+            ["F6", "Forward preview when available."],
+            ["F7", "Pause preview inside preview windows."],
+            ["F8", "Stop preview inside preview windows."],
+            ["Alt+Right", "Increase speed one step inside the speed dialog and announce the ratio."],
+            ["Alt+Left", "Decrease speed one step inside the speed dialog and announce the ratio."],
+            ["Alt+0 or Alt+Numpad 0", "Reset speed to default 1x inside the speed dialog."],
+            ["Escape", "Close the current effect window or dialog when available."]
+          ]],
+          ["Tools", [
+            ["Ctrl+F9", "Open audio recording settings and start recording."],
+            ["Ctrl+Shift+F9", "Prepare screen tutorial recording and hide the program window."],
+            ["Ctrl+Alt+F9", "Start the prepared screen recording from anywhere."],
+            ["Ctrl+F7 or Ctrl+Alt+F7", "Pause or resume recording."],
+            ["Ctrl+F8 or Ctrl+Alt+F8", "Stop recording and open the recorded file in the player."],
+            ["/", "Start speech-to-screen extraction and editing for the selected part."],
+            ["Space", "In the speech-to-screen review window: preview the current segment."],
+            ["Page Up", "In the speech-to-screen review window: move to the previous segment."],
+            ["Page Down", "In the speech-to-screen review window: move to the next segment or apply edits on the last segment."]
+          ]],
+          ["Settings", [
+            ["Shift+Period", "Toggle between normal and professional mode."],
+            ["Up/Down", "In professional mode: navigate between the five tracks and announce each track's name and content. Tracks: 1 main clip, 2 secondary clip, 3 sound effects, 4 background audio, 5 texts. Tracks 1 and 2 accept video only, tracks 3 and 4 accept audio only, and track 5 accepts texts only; the program verifies the content type on insertion."]
+          ]],
+          ["Professional editor (DAW)", [
+            ["I", "Insert an item at the cursor with its natural duration according to the current track type: video on track 1 or 2, audio on track 3 or 4, text on track 5."],
+            ["S", "Split the element at the cursor on the current track into two parts, adjusting the following elements according to the ripple mode."],
+            ["Delete", "Delete the focused or selected element from the track applying the ripple mode."],
+            ["Ctrl+Right", "Move to the next element on the current track."],
+            ["Ctrl+Left", "Move to the previous element on the current track."],
+            ["Ctrl+Shift+Right", "Extend the cumulative selection to the next element on the current track."],
+            ["Ctrl+Shift+Left", "Extend the cumulative selection to the previous element on the current track."],
+            ["Ctrl+A", "Select the full timeline with all its elements on all tracks."],
+            ["Ctrl+X", "Cut the selected elements from the tracks into the clipboard."],
+            ["Ctrl+C", "Copy the selected elements from the tracks."],
+            ["Ctrl+V", "Paste the elements into the current track at the cursor moving items according to the ripple mode."],
+            ["Ctrl+M", "Mute the current track or unmute it."],
+            ["Alt+P", "Cycle the ripple mode among the three modes: per track, all tracks, off."],
+            ["Ctrl+E", "Edit the focused text element."],
+            ["Numpad 4", "Nudge the focused element to the left by the navigation step."],
+            ["Numpad 6", "Nudge the focused element to the right by the navigation step."],
+            ["Numpad 8", "Move the focused element to the previous track."],
+            ["Numpad 2", "Move the focused element to the next track."],
+            ["The three ripple modes", "Per track: when splitting, deleting or inserting, only what follows the operation on the same track moves. All tracks: elements after the operation move on all tracks together. Off: all elements stay in place and gaps are left."],
+            ["The five tracks", "1 main clip accepts video only, 2 secondary clip accepts video and images, 3 sound effects accepts audio, 4 background audio accepts audio, 5 texts accepts editable dynamic texts."]
+          ]],
+          ["Help", [
+            ["Ctrl+U", "Check for program updates."],
+            ["Ctrl+Shift+F2", "Change the application name and create or update the desktop shortcut with the new name."]
+          ]]
+        ]
+      },
+      fr: {
+        dir: "ltr",
+        lang: "fr",
+        title: "Raccourcis clavier",
+        shortcut: "Raccourci",
+        action: "Action",
+        sections: [
+          ["Fichier et enregistrement", [
+            ["Ctrl+N", "Ouvrir une nouvelle fenêtre indépendante."],
+            ["Ctrl+O", "Ouvrir un fichier vidéo, audio ou image."],
+            ["Ctrl+S", "Enregistrer le fichier ou le projet actuel."],
+            ["Ctrl+Shift+S", "Enregistrer uniquement la partie sélectionnée."],
+            ["Ctrl+W", "Vider l'espace de travail de tous les fichiers ouverts."],
+            ["Ctrl+J", "Enregistrer la session de travail actuelle."],
+            ["Ctrl+Shift+J", "Restaurer une session de travail enregistrée."],
+            ["Ctrl+Alt+J", "Restaurer la session après fermeture imprévue."],
+            ["Ctrl+Shift+M", "Ouvrir les informations du fichier."],
+            ["Ctrl+Q", "Quitter le programme."]
+          ]],
+          ["Lecture et navigation", [
+            ["Space", "Lire depuis la position du curseur. Une nouvelle pression ramène le curseur à la position de départ de la lecture."],
+            ["X", "Lire ou mettre en pause à la position actuelle."],
+            ["Shift+Space", "Lire uniquement la partie sélectionnée."],
+            ["Ctrl+Space", "Lire toute la ligne temporelle sauf la partie sélectionnée."],
+            ["Right", "Avancer selon le pas de navigation choisi."],
+            ["Left", "Reculer selon le pas de navigation choisi."],
+            ["Home ou Ctrl+Home", "Aller au début de la sélection s'il y en a une, sinon au début du fichier."],
+            ["End ou Ctrl+End", "Aller à la fin de la sélection s'il y en a une, sinon à la fin du fichier."],
+            ["Page Up", "Reculer de 20 secondes."],
+            ["Page Down", "Avancer de 20 secondes."],
+            ["Shift+Page Up", "Reculer d'une seconde."],
+            ["Shift+Page Down", "Avancer d'une seconde."],
+            ["Ctrl+Page Up", "Aller au bord d'élément précédent."],
+            ["Ctrl+Page Down", "Aller au bord d'élément suivant."],
+            ["Tab", "Aller au fichier suivant dans la ligne temporelle et annoncer son numéro."],
+            ["Shift+Tab", "Aller au fichier précédent dans la ligne temporelle et annoncer son numéro."],
+            ["Ctrl+Tab", "Aller à la fenêtre suivante."],
+            ["Ctrl+Shift+Tab", "Aller à la fenêtre précédente."],
+            ["Up", "En mode professionnel : aller à la piste précédente et annoncer son nom et son contenu. En mode normal : augmenter le volume jusqu'a 100 pour cent."],
+            ["Shift+Up", "Augmenter progressivement le volume jusqu'a 400 pour cent."],
+            ["Down", "En mode professionnel : aller à la piste suivante et annoncer son nom et son contenu. En mode normal : baisser le volume."],
+            ["Ctrl+Alt+Up", "En mode professionnel : augmenter le niveau du master d'un décibel et tous les sons le traversent."],
+            ["Ctrl+Alt+Down", "En mode professionnel : baisser le niveau du master d'un décibel."],
+            ["Shift+Right", "S'arrêter au bord du dernier élément ajouté."],
+            ["Ctrl+Right", "En mode professionnel : aller à l'élément suivant de la piste actuelle. En mode normal : aller au point de modification suivant et annoncer ce qui a été ajouté coupé ou supprimé."],
+            ["Ctrl+Left", "En mode professionnel : aller à l'élément précédent de la piste actuelle. En mode normal : aller au point de modification précédent et annoncer ce qui a été ajouté coupé ou supprimé."],
+            ["Ctrl+Shift+Backspace", "Annoncer le point de modification actuel sans le supprimer."],
+            ["Backspace", "Supprimer le point de modification actuel et sélectionner son début et sa fin pour ajouter un autre élément au même endroit."],
+            ["Ctrl+T", "Annoncer le temps actuel et la durée totale."],
+            ["Ctrl+L", "Annoncer la durée de la sélection actuelle."],
+            ["Ctrl+Shift+L", "Annoncer les éléments à la position actuelle."],
+            ["Ctrl+Shift+N", "Annoncer le nombre de points de modification."]
+          ]],
+          ["Sélection et édition", [
+            ["[ ou Ctrl+H", "Définir le début de la sélection. Si aucune fin n'est définie, la sélection va de la position actuelle à la fin du fichier."],
+            ["] ou K ou Ctrl+K", "Définir la fin de la sélection. Si aucun début n'est défini, la sélection va du début du fichier à la position actuelle. Si un début existe, la lecture s'arrête et la sélection est fixée."],
+            ["Ctrl+A", "En mode professionnel : sélectionner toute la ligne temporelle avec tous ses éléments. En mode normal : sélectionner toute la ligne temporelle."],
+            ["Ctrl+Shift+Home", "Sélectionner du début du fichier à la position actuelle."],
+            ["Ctrl+Shift+End", "Sélectionner de la position actuelle à la fin du fichier."],
+            ["Ctrl+X", "En mode professionnel : couper les éléments sélectionnés des pistes vers le presse-papiers. En mode normal : couper le segment sélectionné et le placer dans le presse-papiers pour le coller à la position actuelle."],
+            ["Ctrl+Z", "Annuler la dernière modification."],
+            ["Ctrl+Y", "Restaurer la dernière modification annulée."],
+            ["Delete", "En mode professionnel : supprimer l'élément ciblé ou sélectionné de la piste en appliquant le mode ripple. En mode normal : supprimer le segment sélectionné de la vidéo ou de l'audio."],
+            ["Ctrl+F4", "Supprimer le fichier actuel de la ligne temporelle."],
+            ["Ctrl+C", "En mode professionnel : copier les éléments sélectionnés des pistes. En mode normal : copier le segment sélectionné."],
+            ["Ctrl+V", "En mode professionnel : coller les éléments dans la piste actuelle au curseur en déplaçant les éléments selon le mode ripple. En mode normal : coller le segment à la position actuelle."],
+            ["Ctrl+R", "Répéter la partie sélectionnée selon un nombre saisi par l'utilisateur."],
+            ["F2", "Nommer la fenêtre actuelle."],
+            ["Ctrl+Shift+R", "Supprimer le silence de la partie sélectionnée."],
+            ["Ctrl+Shift+F", "Appliquer une accélération ou un ralentissement à la sélection actuelle."],
+            ["Ctrl+Shift+O", "Faire pivoter ou retourner la vidéo dans la sélection actuelle."],
+            ["Ctrl+Shift+K", "Couper le son original dans la sélection actuelle."],
+            ["Ctrl+Shift+G", "Masquer un mot ou une partie avec un son de couverture dans la sélection actuelle."]
+          ]],
+          ["Insertion", [
+            ["Ctrl+M", "En mode professionnel : couper le son de la piste actuelle ou le rétablir. En mode normal : ajouter une vidéo à la position actuelle dans un projet vidéo, ou insérer une vidéo visuelle au-dessus de l'audio dans un projet audio."],
+            ["Ctrl+B", "Insérer un audio à la position actuelle dans la chronologie."],
+            ["Ctrl+D", "Insérer un silence à la position actuelle dans la chronologie."],
+            ["Ctrl+Shift+I", "Insérer une image entre le point de début et le point de fin."],
+            ["Ctrl+Shift+T", "Insérer un texte sur la vidéo ou sur un projet audio avec images."],
+            ["Ctrl+Shift+B", "Insérer un fond sonore dans la partie sélectionnée."],
+            ["I", "En mode professionnel : insérer un élément dans la piste actuelle selon son type, une vidéo sur la piste 1 ou 2, un son sur la piste 3 ou 4, un texte sur la piste 5."],
+            ["Touche Applications", "Ouvrir les options rapides selon le type du fichier ouvert."]
+          ]],
+          ["Fond sonore", [
+            ["Ctrl+Shift+Right", "En mode professionnel : étendre la sélection cumulative à l'élément suivant de la piste actuelle. En mode normal : aller au fond sonore suivant."],
+            ["Ctrl+Shift+Left", "En mode professionnel : étendre la sélection cumulative à l'élément précédent de la piste actuelle. En mode normal : aller au fond sonore précédent."],
+            ["Ctrl+Shift+Up", "Augmenter le volume du fond sonore actuel."],
+            ["Ctrl+Shift+Down", "Baisser le volume du fond sonore actuel."],
+            ["B", "Couper le fond sonore dans la partie sélectionnée en mode normal et professionnel."],
+            ["Ctrl+Shift+D", "Supprimer le fond sonore actuel et sélectionner son emplacement."]
+          ]],
+          ["Pas de navigation", [
+            ["1 ou Numpad 1 ou Ctrl+1", "Réduire le pas de navigation."],
+            ["2 ou Numpad 2 ou Ctrl+2", "Augmenter le pas de navigation. Exception : en mode professionnel, Numpad 2 déplace l'élément ciblé vers la piste suivante à la place."],
+            ["3 ou Numpad 3 ou Ctrl+3", "Réinitialiser le pas de navigation à la valeur par défaut."]
+          ]],
+          ["Effets et aperçu", [
+            ["Ctrl+Shift+E", "Ouvrir le choix des effets audio."],
+            ["Ctrl+Shift+V", "Ouvrir les effets visuels dans un projet vidéo."],
+            ["Ctrl+Shift+P", "Ouvrir les effets de transition et les appliquer à la sélection ou à l’élément correspondant."],
+            ["Space", "Lire ou arrêter l'aperçu dans les fenêtres d'aperçu."],
+            ["F4", "Lire l'aperçu dans les fenêtres d'aperçu."],
+            ["F5", "Reculer l'aperçu lorsque c'est disponible."],
+            ["F6", "Avancer l'aperçu lorsque c'est disponible."],
+            ["F7", "Mettre l'aperçu en pause dans les fenêtres d'aperçu."],
+            ["F8", "Arrêter l'aperçu dans les fenêtres d'aperçu."],
+            ["Alt+Right", "Augmenter la vitesse d'un cran dans la fenêtre de vitesse et annoncer le ratio."],
+            ["Alt+Left", "Réduire la vitesse d'un cran dans la fenêtre de vitesse et annoncer le ratio."],
+            ["Alt+0 ou Alt+Numpad 0", "Réinitialiser la vitesse à 1x par défaut dans la fenêtre de vitesse."],
+            ["Escape", "Fermer la fenêtre d'effet ou la boîte de dialogue actuelle si disponible."]
+          ]],
+          ["Outils", [
+            ["Ctrl+F9", "Ouvrir les réglages d'enregistrement audio et démarrer l'enregistrement."],
+            ["Ctrl+Shift+F9", "Préparer l'enregistrement du tutoriel écran et masquer la fenêtre du programme."],
+            ["Ctrl+Alt+F9", "Démarrer l'enregistrement écran préparé depuis n'importe où."],
+            ["Ctrl+F7 ou Ctrl+Alt+F7", "Suspendre ou reprendre l'enregistrement."],
+            ["Ctrl+F8 ou Ctrl+Alt+F8", "Arrêter l'enregistrement et ouvrir le fichier enregistré dans le lecteur."],
+            ["/", "Démarrer l'extraction et la modification de la parole à l'écran pour la partie sélectionnée."],
+            ["Space", "Dans la fenêtre de révision de la parole à l'écran : écouter un aperçu du segment actuel."],
+            ["Page Up", "Dans la fenêtre de révision de la parole à l'écran : aller au segment précédent."],
+            ["Page Down", "Dans la fenêtre de révision de la parole à l'écran : aller au segment suivant ou appliquer les modifications au dernier segment."]
+          ]],
+          ["Paramètres", [
+            ["Shift+Point", "Basculer entre le mode normal et le mode professionnel."],
+            ["Flèche haut/bas", "En mode professionnel : naviguer entre les cinq pistes et annoncer le nom et le contenu de chaque piste. Pistes : 1 clip principal, 2 clip secondaire, 3 effets sonores, 4 audio de fond, 5 textes. Les pistes 1 et 2 n'acceptent que la vidéo, les pistes 3 et 4 que l'audio, et la piste 5 que les textes ; le programme vérifie le type de contenu à l'insertion."]
+          ]],
+          ["Éditeur professionnel (DAW)", [
+            ["I", "Insérer un élément au curseur avec sa durée naturelle selon le type de la piste actuelle : vidéo sur la piste 1 ou 2, son sur la piste 3 ou 4, texte sur la piste 5."],
+            ["S", "Découper l'élément au curseur sur la piste actuelle en deux parties en ajustant les éléments suivants selon le mode ripple."],
+            ["Delete", "Supprimer l'élément ciblé ou sélectionné de la piste en appliquant le mode ripple."],
+            ["Ctrl+Right", "Aller à l'élément suivant de la piste actuelle."],
+            ["Ctrl+Left", "Aller à l'élément précédent de la piste actuelle."],
+            ["Ctrl+Shift+Right", "Étendre la sélection cumulative à l'élément suivant de la piste actuelle."],
+            ["Ctrl+Shift+Left", "Étendre la sélection cumulative à l'élément précédent de la piste actuelle."],
+            ["Ctrl+A", "Sélectionner toute la ligne temporelle avec tous ses éléments sur toutes les pistes."],
+            ["Ctrl+X", "Couper les éléments sélectionnés des pistes vers le presse-papiers."],
+            ["Ctrl+C", "Copier les éléments sélectionnés des pistes."],
+            ["Ctrl+V", "Coller les éléments dans la piste actuelle au curseur en déplaçant les éléments selon le mode ripple."],
+            ["Ctrl+M", "Couper le son de la piste actuelle ou le rétablir."],
+            ["Alt+P", "Faire défiler le mode ripple parmi les trois modes : par piste, toutes les pistes, désactivé."],
+            ["Ctrl+E", "Modifier l'élément texte ciblé."],
+            ["Numpad 4", "Décaler l'élément ciblé vers la gauche du pas de navigation."],
+            ["Numpad 6", "Décaler l'élément ciblé vers la droite du pas de navigation."],
+            ["Numpad 8", "Déplacer l'élément ciblé vers la piste précédente."],
+            ["Numpad 2", "Déplacer l'élément ciblé vers la piste suivante."],
+            ["Les trois modes ripple", "Par piste : lors d'un découpage, d'une suppression ou d'une insertion, seul ce qui suit l'opération sur la même piste se déplace. Toutes les pistes : les éléments après l'opération se déplacent sur toutes les pistes ensemble. Désactivé : tous les éléments restent en place et des trous sont laissés."],
+            ["Les cinq pistes", "1 clip principal n'accepte que la vidéo, 2 clip secondaire accepte la vidéo et les images, 3 effets sonores accepte l'audio, 4 audio de fond accepte l'audio, 5 textes accepte les textes dynamiques modifiables."]
+          ]],
+          ["Aide", [
+            ["Ctrl+U", "Rechercher les mises à jour du programme."],
+            ["Ctrl+Shift+F2", "Modifier le nom de l'application et créer ou mettre à jour le raccourci du bureau avec le nouveau nom."]
+          ]]
+        ]
+      }
+    };
+    const params = new URLSearchParams(location.search);
+    const selected = shortcutPages[params.get("lang")] ? params.get("lang") : "ar";
+    const page = shortcutPages[selected];
+    document.documentElement.lang = page.lang;
+    document.documentElement.dir = page.dir;
+    document.title = page.title;
+    const content = document.getElementById("content");
+    const heading = document.createElement("h1");
+    heading.textContent = page.title;
+    content.appendChild(heading);
+    for (const [sectionTitle, rows] of page.sections) {
+      const section = document.createElement("section");
+      const h2 = document.createElement("h2");
+      h2.textContent = sectionTitle;
+      section.appendChild(h2);
+      const table = document.createElement("table");
+      const thead = document.createElement("thead");
+      const headerRow = document.createElement("tr");
+      for (const label of [page.shortcut, page.action]) {
+        const th = document.createElement("th");
+        th.textContent = label;
+        headerRow.appendChild(th);
+      }
+      thead.appendChild(headerRow);
+      table.appendChild(thead);
+      const tbody = document.createElement("tbody");
+      for (const [shortcut, action] of rows) {
+        const tr = document.createElement("tr");
+        const shortcutCell = document.createElement("td");
+        const separator = selected === "ar" ? " أو " : selected === "fr" ? " ou " : " or ";
+        const pieces = shortcut.split(/\s(?:or|ou|أو)\s/);
+        for (let index = 0; index < pieces.length; index += 1) {
+          if (index > 0) {
+            shortcutCell.appendChild(document.createTextNode(separator));
+          }
+          const kbd = document.createElement("kbd");
+          kbd.textContent = pieces[index];
+          shortcutCell.appendChild(kbd);
+        }
+        const actionCell = document.createElement("td");
+        actionCell.textContent = action;
+        tr.appendChild(shortcutCell);
+        tr.appendChild(actionCell);
+        tbody.appendChild(tr);
+      }
+      table.appendChild(tbody);
+      section.appendChild(table);
+      content.appendChild(section);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.gitnexus/
+__pycache__/
+assets/
+bundled_drivers/
+work/
+*.zip
+*.mp4
+*.exe
+*.dll
+*.log
+test_output.*
+test_results.txt
+

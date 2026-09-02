@@ -1,0 +1,12 @@
+/.gitnexus/
+__pycache__/
+*.py[cod]
+
+*.zip
+*.mp4
+work/
+build/
+dist/
+test_results.txt
+test_output.mp4
+*.dll
